@@ -1,3 +1,9 @@
+<h2>Installation:</h2>
+<p>composer require "zhovtyj/laraadmin:dev-master"</p>
+<p>Providers</p>
+<p>Zhovtyj\Laraadmin\LAProvider::class</p>
+<p>php artisan la:install</p>
+
 <p align="center">
   <img src="http://laraadmin.com/img/laraadmin-256.png">
   <h1 align="center" style="margin-top:5px;">LaraAdmin 1.0</h1>
