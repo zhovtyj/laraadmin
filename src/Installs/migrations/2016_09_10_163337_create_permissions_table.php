@@ -3,13 +3,13 @@
  * Migration generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\Module;
 
 class CreatePermissionsTable extends Migration
 {

@@ -3,8 +3,8 @@
  * Controller generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
 namespace App\Http\Controllers\LA;
@@ -17,8 +17,8 @@ use DB;
 use Validator;
 use Datatables;
 use Collective\Html\FormFacade as Form;
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFields;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFields;
 
 use App\User;
 

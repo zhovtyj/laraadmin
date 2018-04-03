@@ -3,8 +3,8 @@
 @section('htmlheader_title', 'Module View')
 
 <?php
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFields;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFields;
 ?>
 
 @section('main-content')

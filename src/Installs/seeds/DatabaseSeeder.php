@@ -3,17 +3,17 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
 use Illuminate\Database\Seeder;
 
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFields;
-use zhovtyj\Laraadmin\Models\ModuleFieldTypes;
-use zhovtyj\Laraadmin\Models\Menu;
-use zhovtyj\Laraadmin\Models\LAConfigs;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFields;
+use Zhovtyj\Laraadmin\Models\ModuleFieldTypes;
+use Zhovtyj\Laraadmin\Models\Menu;
+use Zhovtyj\Laraadmin\Models\LAConfigs;
 
 use App\Role;
 use App\Permission;

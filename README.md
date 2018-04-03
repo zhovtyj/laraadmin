@@ -3,16 +3,16 @@
   <h1 align="center" style="margin-top:5px;">LaraAdmin 1.0</h1>
 </p>
 
-[![Total Downloads](https://poser.pugx.org/zhovtyj/laraadmin/d/total.svg)](https://packagist.org/packages/zhovtyj/laraadmin)
+[![Total Downloads](https://poser.pugx.org/Zhovtyj/laraadmin/d/total.svg)](https://packagist.org/packages/Zhovtyj/laraadmin)
 [![Build Status](https://travis-ci.org/laraadmin/laraadmin-dev.svg?branch=master)](https://travis-ci.org/laraadmin/laraadmin-dev)
-[![Latest Stable Version](https://poser.pugx.org/zhovtyj/laraadmin/v/stable.svg)](https://packagist.org/packages/zhovtyj/laraadmin)
-[![Latest Unstable Version](https://poser.pugx.org/zhovtyj/laraadmin/v/unstable.svg)](https://packagist.org/packages/zhovtyj/laraadmin)
-[![License](https://poser.pugx.org/zhovtyj/laraadmin/license.svg)](https://packagist.org/packages/zhovtyj/laraadmin)
-[![Code Triagers Badge](https://www.codetriage.com/zhovtyjitsolutions/laraadmin/badges/users.svg)](https://www.codetriage.com/zhovtyjitsolutions/laraadmin)
+[![Latest Stable Version](https://poser.pugx.org/Zhovtyj/laraadmin/v/stable.svg)](https://packagist.org/packages/Zhovtyj/laraadmin)
+[![Latest Unstable Version](https://poser.pugx.org/Zhovtyj/laraadmin/v/unstable.svg)](https://packagist.org/packages/Zhovtyj/laraadmin)
+[![License](https://poser.pugx.org/Zhovtyj/laraadmin/license.svg)](https://packagist.org/packages/Zhovtyj/laraadmin)
+[![Code Triagers Badge](https://www.codetriage.com/Zhovtyjitsolutions/laraadmin/badges/users.svg)](https://www.codetriage.com/Zhovtyjitsolutions/laraadmin)
 
 LaraAdmin is a Open source CRM for quick-start Admin based applications with features like Advanced CRUD Generation, Schema Manager and Workflows.
 ##### Website: [laraadmin.com](http://laraadmin.com)
-##### Creator: [@gdbhosale](https://github.com/gdbhosale), [zhovtyj IT Solutions](https://github.com/zhovtyjitsolutions)
+##### Creator: [@gdbhosale](https://github.com/gdbhosale), [Zhovtyj IT Solutions](https://github.com/Zhovtyjitsolutions)
 
 --------
 
@@ -51,15 +51,15 @@ Thank you for considering contributing to the LaraAdmin. Please read [features d
 
 ### Bugs, improvements & Security Vulnerabilities
 
-If you discover a bug or security vulnerability within LaraAdmin, please send an e-mail to Ganesh Bhosale at ganesh@zhovtyj.in. All requests will beaddressed promptly.
+If you discover a bug or security vulnerability within LaraAdmin, please send an e-mail to Ganesh Bhosale at ganesh@Zhovtyj.in. All requests will beaddressed promptly.
 
 ### Issues
 
-If you come across any issue/bug please [report them here](https://github.com/zhovtyjitsolutions/laraadmin/issues).
+If you come across any issue/bug please [report them here](https://github.com/Zhovtyjitsolutions/laraadmin/issues).
 
 ### License
 
-LaraAdmin is open-sourced software built by zhovtyj IT Solutions and contributors and licensed under the [MIT license](http://opensource.org/licenses/MIT).
+LaraAdmin is open-sourced software built by Zhovtyj IT Solutions and contributors and licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ### Credits:
 - Ganesh Bhosale https://github.com/gdbhosale
@@ -72,7 +72,7 @@ LaraAdmin is open-sourced software built by zhovtyj IT Solutions and contributor
 <p align="center">
   <br>
   Brought to you by<br>
-  <a href="http://zhovtyjitsolutions.com">
-  <img src="http://zhovtyjitsolutions.com/wp-content/uploads/2016/01/zhovtyj-it-solutions.png">
+  <a href="http://Zhovtyjitsolutions.com">
+  <img src="http://Zhovtyjitsolutions.com/wp-content/uploads/2016/01/Zhovtyj-it-solutions.png">
   </a>
 </p>

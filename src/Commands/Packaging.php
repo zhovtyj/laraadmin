@@ -3,19 +3,19 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin\Commands;
+namespace Zhovtyj\Laraadmin\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class Packaging
- * @package zhovtyj\Laraadmin\Commands
+ * @package Zhovtyj\Laraadmin\Commands
  *
  * Command to put latest development and changes of project into LaraAdmin package.
  * [For LaraAdmin Developer's Only]
@@ -29,7 +29,7 @@ class Packaging extends Command
     protected $signature = 'la:packaging';
     
     // Copy From Folder - Package Install Files
-    protected $description = '[Developer Only] - Copy LaraAdmin-Dev files to package: "zhovtyj/laraadmin"';
+    protected $description = '[Developer Only] - Copy LaraAdmin-Dev files to package: "Zhovtyj/laraadmin"';
     
     // Copy to Folder - Project Folder
     protected $from;
@@ -47,7 +47,7 @@ class Packaging extends Command
         $this->info('Exporting started...');
         
         $from = base_path();
-        $to = base_path('vendor/zhovtyj/laraadmin/src/Installs');
+        $to = base_path('vendor/Zhovtyj/laraadmin/src/Installs');
         
         $this->info('from: ' . $from . " to: " . $to);
         

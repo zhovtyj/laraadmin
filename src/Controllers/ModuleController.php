@@ -3,28 +3,28 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin\Controllers;
+namespace Zhovtyj\Laraadmin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
-use zhovtyj\Laraadmin\Helpers\LAHelper;
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFields;
-use zhovtyj\Laraadmin\Models\ModuleFieldTypes;
-use zhovtyj\Laraadmin\CodeGenerator;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFields;
+use Zhovtyj\Laraadmin\Models\ModuleFieldTypes;
+use Zhovtyj\Laraadmin\CodeGenerator;
 use App\Role;
 use Schema;
-use zhovtyj\Laraadmin\Models\Menu;
+use Zhovtyj\Laraadmin\Models\Menu;
 
 /**
  * Class ModuleController
- * @package zhovtyj\Laraadmin\Controllers
+ * @package Zhovtyj\Laraadmin\Controllers
  *
  */
 class ModuleController extends Controller

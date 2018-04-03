@@ -3,22 +3,22 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin;
+namespace Zhovtyj\Laraadmin;
 
 use Artisan;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class LAProvider
- * @package zhovtyj\Laraadmin
+ * @package Zhovtyj\Laraadmin
  *
  * This is LaraAdmin Service Provider which looks after managing aliases, other required providers, blade directives
  * and Commands.
@@ -42,9 +42,9 @@ class LAProvider extends ServiceProvider
         ]);
         */
         //echo "Laraadmin Migrations started...";
-        // Artisan::call('migrate', ['--path' => "vendor/zhovtyj/laraadmin/src/Migrations/"]);
+        // Artisan::call('migrate', ['--path' => "vendor/Zhovtyj/laraadmin/src/Migrations/"]);
         //echo "Migrations completed !!!.";
-        // Execute by php artisan vendor:publish --provider="zhovtyj\Laraadmin\LAProvider"
+        // Execute by php artisan vendor:publish --provider="Zhovtyj\Laraadmin\LAProvider"
         
         /*
         |--------------------------------------------------------------------------
@@ -118,19 +118,19 @@ class LAProvider extends ServiceProvider
         $loader->alias('Gravatar', \Creativeorange\Gravatar\Facades\Gravatar::class);
         
         // For LaraAdmin Code Generation
-        $loader->alias('CodeGenerator', \zhovtyj\Laraadmin\CodeGenerator::class);
+        $loader->alias('CodeGenerator', \Zhovtyj\Laraadmin\CodeGenerator::class);
         
         // For LaraAdmin Form Helper
-        $loader->alias('LAFormMaker', \zhovtyj\Laraadmin\LAFormMaker::class);
+        $loader->alias('LAFormMaker', \Zhovtyj\Laraadmin\LAFormMaker::class);
         
         // For LaraAdmin Helper
-        $loader->alias('LAHelper', \zhovtyj\Laraadmin\Helpers\LAHelper::class);
+        $loader->alias('LAHelper', \Zhovtyj\Laraadmin\Helpers\LAHelper::class);
         
         // LaraAdmin Module Model 
-        $loader->alias('Module', \zhovtyj\Laraadmin\Models\Module::class);
+        $loader->alias('Module', \Zhovtyj\Laraadmin\Models\Module::class);
         
         // For LaraAdmin Configuration Model
-        $loader->alias('LAConfigs', \zhovtyj\Laraadmin\Models\LAConfigs::class);
+        $loader->alias('LAConfigs', \Zhovtyj\Laraadmin\Models\LAConfigs::class);
         
         // For Entrust
         $loader->alias('Entrust', \Zizaco\Entrust\EntrustFacade::class);
@@ -144,13 +144,13 @@ class LAProvider extends ServiceProvider
         |--------------------------------------------------------------------------
         */
         
-        $this->app->make('zhovtyj\Laraadmin\Controllers\ModuleController');
-        $this->app->make('zhovtyj\Laraadmin\Controllers\FieldController');
-        $this->app->make('zhovtyj\Laraadmin\Controllers\MenuController');
+        $this->app->make('Zhovtyj\Laraadmin\Controllers\ModuleController');
+        $this->app->make('Zhovtyj\Laraadmin\Controllers\FieldController');
+        $this->app->make('Zhovtyj\Laraadmin\Controllers\MenuController');
         
         // For LAEditor
         if(file_exists(__DIR__ . '/../../laeditor')) {
-            $this->app->make('zhovtyj\Laeditor\Controllers\CodeEditorController');
+            $this->app->make('Zhovtyj\Laeditor\Controllers\CodeEditorController');
         }
         
         /*
@@ -212,15 +212,15 @@ class LAProvider extends ServiceProvider
         */
         
         $commands = [
-            \zhovtyj\Laraadmin\Commands\Migration::class,
-            \zhovtyj\Laraadmin\Commands\Crud::class,
-            \zhovtyj\Laraadmin\Commands\Packaging::class,
-            \zhovtyj\Laraadmin\Commands\LAInstall::class
+            \Zhovtyj\Laraadmin\Commands\Migration::class,
+            \Zhovtyj\Laraadmin\Commands\Crud::class,
+            \Zhovtyj\Laraadmin\Commands\Packaging::class,
+            \Zhovtyj\Laraadmin\Commands\LAInstall::class
         ];
         
         // For LAEditor
         if(file_exists(__DIR__ . '/../../laeditor')) {
-            $commands[] = \zhovtyj\Laeditor\Commands\LAEditor::class;
+            $commands[] = \Zhovtyj\Laeditor\Commands\LAEditor::class;
         }
         
         $this->commands($commands);

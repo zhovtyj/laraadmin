@@ -3,22 +3,22 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin\Commands;
+namespace Zhovtyj\Laraadmin\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 use Eloquent;
 use DB;
 
 /**
  * Class LAInstall
- * @package zhovtyj\Laraadmin\Commands
+ * @package Zhovtyj\Laraadmin\Commands
  *
  * Command to install LaraAdmin package into project which moves lot of file from 'src/Installs' directory to Project
  */
@@ -50,7 +50,7 @@ class LAInstall extends Command
         try {
             $this->info('LaraAdmin installation started...');
             
-            $from = base_path('vendor/zhovtyj/laraadmin/src/Installs');
+            $from = base_path('vendor/Zhovtyj/laraadmin/src/Installs');
             $to = base_path();
             
             $this->info('from: ' . $from . " to: " . $to);

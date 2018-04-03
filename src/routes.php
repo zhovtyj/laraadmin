@@ -1,6 +1,6 @@
 <?php
 
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 
 $as = "";
 if(LAHelper::laravel_ver() >= 5.3 || LAHelper::laravel_ver() == 5.4) {
@@ -8,11 +8,11 @@ if(LAHelper::laravel_ver() >= 5.3 || LAHelper::laravel_ver() == 5.4) {
 }
 
 /**
- * Connect routes with ADMIN_PANEL permission(for security) and 'zhovtyj\Laraadmin\Controllers' namespace
+ * Connect routes with ADMIN_PANEL permission(for security) and 'Zhovtyj\Laraadmin\Controllers' namespace
  * and '/admin' url.
  */
 Route::group([
-    'namespace' => 'zhovtyj\Laraadmin\Controllers',
+    'namespace' => 'Zhovtyj\Laraadmin\Controllers',
     'as' => $as,
     'middleware' => ['web', 'auth', 'permission:ADMIN_PANEL', 'role:SUPER_ADMIN']
 ], function () {

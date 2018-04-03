@@ -3,11 +3,11 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin\Controllers;
+namespace Zhovtyj\Laraadmin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -15,15 +15,15 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
 
-use zhovtyj\Laraadmin\Models\Menu;
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFields;
-use zhovtyj\Laraadmin\Models\ModuleFieldTypes;
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Models\Menu;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFields;
+use Zhovtyj\Laraadmin\Models\ModuleFieldTypes;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class MenuController
- * @package zhovtyj\Laraadmin\Controllers
+ * @package Zhovtyj\Laraadmin\Controllers
  *
  * Works after managing Menus and their hierarchy
  */

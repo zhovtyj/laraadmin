@@ -1,6 +1,6 @@
 <?php
 
-use zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
 
 /* ================== Homepage ================== */
 Route::get('/', 'HomeController@index');

@@ -3,22 +3,22 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: zhovtyj IT Solutions
- * Developer Website: http://zhovtyjitsolutions.com
+ * Developed by: Zhovtyj IT Solutions
+ * Developer Website: http://Zhovtyjitsolutions.com
  */
 
-namespace zhovtyj\Laraadmin;
+namespace Zhovtyj\Laraadmin;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
-use zhovtyj\Laraadmin\Models\Module;
-use zhovtyj\Laraadmin\Models\ModuleFieldTypes;
-use zhovtyj\Laraadmin\Helpers\LAHelper;
-use zhovtyj\Laraadmin\Models\Menu;
+use Zhovtyj\Laraadmin\Models\Module;
+use Zhovtyj\Laraadmin\Models\ModuleFieldTypes;
+use Zhovtyj\Laraadmin\Helpers\LAHelper;
+use Zhovtyj\Laraadmin\Models\Menu;
 
 /**
  * Class CodeGenerator
- * @package zhovtyj\Laraadmin
+ * @package Zhovtyj\Laraadmin
  *
  * This class performs the Code Generation for Controller, Model, CRUDs Views, Routes, Menu and Migrations.
  * This also generates the naming config which contains names for controllers, tables and everything required
