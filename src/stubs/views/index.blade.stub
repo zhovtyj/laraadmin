@@ -86,7 +86,7 @@
             $("#example1").DataTable({
                 processing: true,
                 serverSide: true,
-                ajax: "{{ url(config('laraadmin.adminRoute') . '/apple_dt_ajax') }}",
+                ajax: "{{ url(config('Crm.adminRoute') . '/__singular_var___dt_ajax') }}",
                 columns: [
                 @foreach( $listing_cols as $col )
                     { "data": "{!! $col !!}" },
@@ -102,7 +102,7 @@
             },
 
         });
-            $("#apple-add-form").validate({
+            $("#__singular_var__-add-form").validate({
 
             });
         });
