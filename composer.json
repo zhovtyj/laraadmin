@@ -8,7 +8,7 @@
         "issues": "https://github.com/Zhovtyjitsolutions/laraadmin/issues",
         "source": "https://github.com/Zhovtyjitsolutions/laraadmin"
     },
-    "version": "1.8",
+    "version": "1.9",
     "require": {
         "illuminate/support": "5.*",
         "laravelcollective/html": "^5.6",
