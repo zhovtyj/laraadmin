@@ -450,9 +450,9 @@ class Module extends Model
                 break;
             case 'Files':
                 if($update) {
-                    $var = $table->string($field->colname, 256)->change();
+                    $var = $table->string($field->colname, 191)->change();
                 } else {
-                    $var = $table->string($field->colname, 256);
+                    $var = $table->string($field->colname, 191);
                 }
                 if(is_string($field->defaultvalue) && starts_with($field->defaultvalue, "[")) {
                     $var->default($field->defaultvalue);
@@ -536,9 +536,9 @@ class Module extends Model
                 break;
             case 'Multiselect':
                 if($update) {
-                    $var = $table->string($field->colname, 256)->change();
+                    $var = $table->string($field->colname, 191)->change();
                 } else {
-                    $var = $table->string($field->colname, 256);
+                    $var = $table->string($field->colname, 191);
                 }
                 if(is_array($field->defaultvalue)) {
                     $field->defaultvalue = json_encode($field->defaultvalue);
@@ -766,12 +766,12 @@ class Module extends Model
         // set column unique
         if($update) {
             if($isFieldTypeChange) {
-                if($field->unique && $var != null && $field->maxlength < 256) {
+                if($field->unique && $var != null && $field->maxlength < 191) {
                     $table->unique($field->colname);
                 }
             }
         } else {
-            if($field->unique && $var != null && $field->maxlength < 256) {
+            if($field->unique && $var != null && $field->maxlength < 191) {
                 $table->unique($field->colname);
             }
         }
@@ -820,7 +820,7 @@ class Module extends Model
                 } else {
                     // Because maxlength above 256 will not be supported by Unique
                     if($obj->unique) {
-                        $obj->maxlength = 250;
+                        $obj->maxlength = 191;
                     } else {
                         $obj->maxlength = $obj->maxlength;
                     }
@@ -874,9 +874,9 @@ class Module extends Model
                 if(!isset($field[6])) {
                     $obj->maxlength = 0;
                 } else {
-                    // Because maxlength above 256 will not be supported by Unique
+                    // Because maxlength above 256 191 will not be supported by Unique
                     if($obj->unique) {
-                        $obj->maxlength = 250;
+                        $obj->maxlength = 191;
                     } else {
                         $obj->maxlength = $field[6];
                     }
